@@ -28,7 +28,5 @@ if __name__ == "__main__":
     # Getting the input data
     data = numbers(get_data(day=1, year=2021))
 
-    # Part A: 1400
     print(f"Part A answer: {count_depth_increment(data)}")
-    # Part B: 1429
     print(f"Part B answer: {count_depth_increment(data, 3)}")
