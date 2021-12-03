@@ -1,7 +1,7 @@
 from aocd import get_data
 from aocd.transforms import lines
 
-def count_depth_increment(data):
+def dive(data):
 
     aim = 0
     horizontalPos = 0
@@ -30,4 +30,4 @@ if __name__ == "__main__":
     data = lines(get_data(day=2, year=2021))
 
     # Part A: 1692075; Part B: 1749524700
-    print(f"Answer: {count_depth_increment(data)}")
+    print(f"Answer: {dive(data)}")
